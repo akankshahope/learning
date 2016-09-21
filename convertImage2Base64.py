@@ -1,6 +1,6 @@
 import base64
 import requests
-url = "http://images.indianexpress.com/2016/03/google-doodle-holi_7591.jpg"
+url = "http://images.freeimages.com/images/previews/118/bicycle-sign-3-1442216.jpg"
 response = requests.get(url)
 convertedData = ("data:" + 
                response.headers['Content-Type'] + ";" +
