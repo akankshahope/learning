@@ -1,6 +1,12 @@
 import sys
 # A Krishnamurthy number is a number whose sum of the factorial of digits is equal to the number itself. For example 145, sum of factorial of each digits:
 # 1! + 4! + 5! = 1 + 24 + 120 = 145
+# Example
+# 1! = 1.
+# 2! = 2.
+# 1! + 4! + 5! = 1 + 24 + 120 = 145.
+# 4! + 0! + 5! + 8! + 5! = 24 + 1 + 120 + 40320 + 120 = 40585.
+# There are exactly four such numbers.
 def factorial(number):
     factorial = 1
     while number != 0:
