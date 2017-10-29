@@ -1,4 +1,5 @@
 <?php
+//Patern Printing star at certain points to become a shape
 $start = microtime(true);
 $i=0;$j=0;
 $t=8/2;
