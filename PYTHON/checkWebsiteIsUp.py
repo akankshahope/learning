@@ -1,5 +1,6 @@
 import urllib
 import sys
+#We can try to get the url from the user and make this dynamic script
 try:
     httpcode =  urllib.urlopen("http://www.google.com").getcode()
     if httpcode == 200:
