@@ -1,6 +1,6 @@
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
-
+/*Making the pattern as Z*/
 class TestClass {
     public static void main(String args[] ) throws Exception {
        
