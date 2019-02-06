@@ -6,7 +6,7 @@ int calculateLength(char *input){
     }
     return i;
 }
-
+// Program starts from here
 int main(){
     char input[100]; //Getting Input from User upto 100 chars
     std::cout << "Please input the string/number [Note: Max 100 characters allowed]:";
